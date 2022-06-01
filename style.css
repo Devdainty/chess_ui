@@ -1,0 +1,46 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+	box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3E517A;
+}
+
+.chess_symbol_wrapper{
+    padding: 1em;
+}
+
+.bg_xanadu{
+    background-color: #757761;
+}
+
+.bg_beau_blue{
+    background-color: #BFD7EA;
+}
+
+.chess_row{
+    display: flex;
+}
+
+.chess_symbol{
+    font-size: 3em;
+}
+
+.opacity{
+    opacity: 0;
+}
+
+.border{
+    border: 8px solid;
+    border-width: 10px;
+	border-image: repeating-linear-gradient(45deg, #E7E08B, #B88C9E 4%) 1;
+}
